@@ -1,3 +1,9 @@
 pandas
-gensim
+gensim.models
 numpy
+urllib.request
+bs4
+sklearn.model_selection
+sklearn.svm
+sklearn.metrics
+nltk.tokenize
