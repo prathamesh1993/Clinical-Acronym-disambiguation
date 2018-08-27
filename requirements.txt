@@ -2,5 +2,5 @@ pandas==0.23.4
 gensim==3.5.0
 numpy==1.15.1
 bs4
-sklearn==0.19.2
-nltk==3.3
+sklearn
+nltk
