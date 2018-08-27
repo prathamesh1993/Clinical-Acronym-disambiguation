@@ -1,5 +1,5 @@
 # Clinical-Acronym-disambiguation
 
-[![Binder](http://mybinder.org/badge.svg)](https://hub.mybinder.org/user/prathamesh1993---disambiguation-m23dcdft)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/prathamesh1993/Clinical-Acronym-disambiguation/master)
 
 (Click on the 'launch binder' button ^^^)
