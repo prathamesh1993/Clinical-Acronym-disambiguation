@@ -5,7 +5,7 @@
 (Click on the 'launch binder' button ^^^)
 
 
-This repository contains Jupyter notebooks, trained word embedding files and datasets of medical acronyms (clinical and biomedical). It is an unconventional use case of GitHub, through binder, for collaboratively editing/running different algorithms on Acronym data.
+This repository contains Jupyter notebooks, trained word embedding files and datasets of medical acronyms (clinical and biomedical). It is an unconventional use case of GitHub, through [binder](https://github.com/jupyterhub/binderhub), for collaboratively editing/running different algorithms on Acronym data.
 Currently, the project is under development and uses GitHub LFS to store the trained word embeddings model developed by Language Technology Lab. Due to bandwidth limitations, the best way to use this repo is by downloading files. Another option is running it with repo2docker
 
 #Acronyms from Clinical Notes (75- manually annotated)
