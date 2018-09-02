@@ -6,7 +6,7 @@
 
 
 This repository contains Jupyter notebooks, trained word embedding files and datasets of medical acronyms (clinical and biomedical). It is an unconventional use case of GitHub, through [binder](https://github.com/jupyterhub/binderhub), for collaboratively editing/running different algorithms on Acronym data.
-Currently, the project is under development and uses GitHub LFS to store the trained word embeddings model developed by Language Technology Lab. Due to bandwidth limitations, the best way to use this repo is by downloading files. Another option is running it with repo2docker
+Currently, the project is under development and uses [GitHub LFS](https://github.com/git-lfs/git-lfs/wiki/Tutorial) to store the trained word embeddings model developed by [Language Technology Lab](https://github.com/cambridgeltl/BioNLP-2016). Due to bandwidth limitations, the best way to use this repo is by downloading files. Another option is running it with [repo2docker](https://github.com/jupyter/repo2docker).
 
 #Acronyms from Clinical Notes (75- manually annotated)
 Clinical Abbreviation Sense Inventory 
@@ -29,15 +29,15 @@ They are based on trained word embeddings provided in the link above. Billy Chiu
 # Articles
 These are the articles on word sense disambiguation and clinical acronyms that I came across during my work.
 
-Pakhomov, S., Pedersen, T., & Chute, C. G. (2005). Abbreviation and Acronym Disambiguation in Clinical Discourse. AMIA Annual Symposium Proceedings, 2005, 589–593.
+[Pakhomov, S., Pedersen, T., & Chute, C. G. (2005). Abbreviation and Acronym Disambiguation in Clinical Discourse. AMIA Annual Symposium Proceedings, 2005, 589–593.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1560669/)
 
-Xu, H., Stetson, P. D., & Friedman, C. (2012). Combining Corpus-derived Sense Profiles with Estimated Frequency Information to Disambiguate Clinical Abbreviations. AMIA Annual Symposium Proceedings, 2012, 1004–1013.
+[Xu, H., Stetson, P. D., & Friedman, C. (2012). Combining Corpus-derived Sense Profiles with Estimated Frequency Information to Disambiguate Clinical Abbreviations. AMIA Annual Symposium Proceedings, 2012, 1004–1013.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540457/)
 
-Xu H, Wu Y, Elhadad N, Stetson PD, Friedman C. A new clustering method for detecting rare senses of abbreviations in clinical notes. J Biomed Inform. 2012;45(6):1075-83.
+[Xu H, Wu Y, Elhadad N, Stetson PD, Friedman C. A new clustering method for detecting rare senses of abbreviations in clinical notes. J Biomed Inform. 2012;45(6):1075-83.](https://www.sciencedirect.com/science/article/pii/S1532046412000937)
 
-Wu, Y., Denny, J. C., Rosenbloom, S. T., Miller, R. A., Giuse, D. A., & Xu, H. (2012). A comparative study of current clinical natural language processing systems on handling abbreviations in discharge summaries. AMIA Annual Symposium Proceedings, 2012, 997–1003.
+[Wu, Y., Denny, J. C., Rosenbloom, S. T., Miller, R. A., Giuse, D. A., & Xu, H. (2012). A comparative study of current clinical natural language processing systems on handling abbreviations in discharge summaries. AMIA Annual Symposium Proceedings, 2012, 997–1003.](https://www.ncbi.nlm.nih.gov/pubmed/23304375)
 
-Moon, S., Berster, B.-T., Xu, H., & Cohen, T. (2013). Word Sense Disambiguation of Clinical Abbreviations with Hyperdimensional Computing. AMIA Annual Symposium Proceedings, 2013, 1007–1016.
+[Moon, S., Berster, B.-T., Xu, H., & Cohen, T. (2013). Word Sense Disambiguation of Clinical Abbreviations with Hyperdimensional Computing. AMIA Annual Symposium Proceedings, 2013, 1007–1016.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3900125/)
 
 Moon, S., Pakhomov, S., Liu, N., Ryan, J. O., & Melton, G. B. (2014). A sense inventory for clinical abbreviations and acronyms created using clinical notes and medical dictionary resources. Journal of the American Medical Informatics Association : JAMIA, 21(2), 299–307. http://doi.org/10.1136/amiajnl-2012-001506
 
@@ -45,19 +45,19 @@ ShARe/CLEF eHealth Challenge 2013, Task 2. Journal of Biomedical Semantics, 7, 4
 
 Wu, Y., Denny, J. C., Rosenbloom, S. T., Miller, R. A., Giuse, D. A., Song, M., & Xu, H. (2015). A Preliminary Study of Clinical Abbreviation Disambiguation in Real Time. Applied Clinical Informatics, 6(2), 364–374. http://doi.org/10.4338/ACI-2014-10-RA-0088
 
-Wu, Y., Xu, J., Zhang, Y., Xu, H., (2015) Clinical Abbreviation Disambiguation Using Neural Word Embeddings. Proceedings of BioNLP 15
+[Wu, Y., Xu, J., Zhang, Y., Xu, H., (2015) Clinical Abbreviation Disambiguation Using Neural Word Embeddings. Proceedings of BioNLP 15](https://pdfs.semanticscholar.org/2133/d4d7410de5385b577698bd7dbccad41b5fdc.pdf)
 
-Wang, Y., Zheng, K., Xu, H., & Mei, Q. (2016). Clinical Word Sense Disambiguation with Interactive Search and Classification. AMIA Annual Symposium Proceedings, 2016, 2062–2071.
+[Wang, Y., Zheng, K., Xu, H., & Mei, Q. (2016). Clinical Word Sense Disambiguation with Interactive Search and Classification. AMIA Annual Symposium Proceedings, 2016, 2062–2071.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5333264/)
 
-Stéphan Tulkens, Simon Šuster: “Using Distributed Representations to Disambiguate Biomedical and Clinical Concepts”, 2016, Proceedings of the 15th Workshop on Biomedical Natural Language Processing, Berlin, Germany, 2016, pages 77-82. Association for Computational Linguistics; arXiv:1608.05605.
+[Stéphan Tulkens, Simon Šuster: “Using Distributed Representations to Disambiguate Biomedical and Clinical Concepts”, 2016, Proceedings of the 15th Workshop on Biomedical Natural Language Processing, Berlin, Germany, 2016, pages 77-82. Association for Computational Linguistics; arXiv:1608.05605.](http://arxiv.org/abs/1608.05605)
 
 Billy Chiu, Gamal Crichton, Anna Korhonen, Sampo Pyysalo. How to Train Good Word Embeddings for Biomedical NLP http://aclweb.org/anthology/W/W16/W16-2922.pdf
 
 Michel Oleynikb , Alexander Avianb, Stefan Schulzb. http://www.aclweb.org/anthology/W16-4213
 
-Mowery, D. L., South, B. R., Christensen, L., Leng, J., Peltonen, L.-M., Salanterä, S., … Chapman, W. W. (2016). Normalizing acronyms and abbreviations to aid patient understanding of clinical texts: 
+[Mowery, D. L., South, B. R., Christensen, L., Leng, J., Peltonen, L.-M., Salanterä, S., … Chapman, W. W. (2016). Normalizing acronyms and abbreviations to aid patient understanding of clinical texts: ](http://doi.org/10.1186/s13326-016-0084-y)
 
-Finley, G. P., Pakhomov, S. V. S., McEwan, R., & Melton, G. B. (2016). Towards Comprehensive Clinical Abbreviation Disambiguation Using Machine-Labeled Training Data. AMIA Annual Symposium Proceedings, 2016, 560–569.
+[Finley, G. P., Pakhomov, S. V. S., McEwan, R., & Melton, G. B. (2016). Towards Comprehensive Clinical Abbreviation Disambiguation Using Machine-Labeled Training Data. AMIA Annual Symposium Proceedings, 2016, 560–569.](https://www.ncbi.nlm.nih.gov/pubmed/28269852)
 
-Yanshan Wang, Sijia Liu, Naveed Afzal, Majid Rastegar-Mojarad, Liwei Wang, Feichen Shen, Paul Kingsbury: “A Comparison of Word Embeddings for the Biomedical Natural Language Processing”, 2018; arXiv:1802.00400.
+[Yanshan Wang, Sijia Liu, Naveed Afzal, Majid Rastegar-Mojarad, Liwei Wang, Feichen Shen, Paul Kingsbury: “A Comparison of Word Embeddings for the Biomedical Natural Language Processing”, 2018; arXiv:1802.00400.](http://arxiv.org/abs/1802.00400)
 
